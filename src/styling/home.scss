@@ -1,0 +1,27 @@
+.first-banner{
+    background-image: url("../assets-image/home/desktop/image-hero.jpg");
+    background-size: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .first-banner-content{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30%;
+        padding-left: 10%;
+        padding-top: 10%;
+        .new-product{
+            color: #7f7f7f;
+            font-size: 1.2rem;
+            line-height: 1.3rem;
+            letter-spacing: 1rem;
+        }
+        .product-name{
+            font-size: 2.7rem;
+            font-weight: 900;
+            line-height: 2.5rem;
+        }
+    }
+}
