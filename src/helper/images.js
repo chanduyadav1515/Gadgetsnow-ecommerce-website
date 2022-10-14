@@ -24,12 +24,19 @@ import YX1_EARPHONES_1 from "../assets-image/products/earphones/YX1 EARPHONES/1.
 import YX1_EARPHONES_2 from "../assets-image/products/earphones/YX1 EARPHONES/2.jpg";
 import YX1_EARPHONES_3 from "../assets-image/products/earphones/YX1 EARPHONES/3.jpg";
 
+//Caegory pngs
+import earphone_png from "../assets-image/shared/earphones.png";
+import headphone_png from "../assets-image/shared/headphones.png";
+import speaker_png from "../assets-image/shared/speakers.png";
 
- export const categoryImages = {
-    3:XX_59_HEADPHONES,
-    2:XX_99_MARK_ONE_HEADPHONES,
-    1:XX_99_MARK_TWO_HEADPHONES,
-    5:ZX7_SPEAKER,
-    4:ZX9_SPEAKER,
-    6:YX1_EARPHONES,
-  }
+export const categoryImages = {
+  headphone_png,
+  speaker_png,
+  earphone_png,
+  3: XX_59_HEADPHONES,
+  2: XX_99_MARK_ONE_HEADPHONES,
+  1: XX_99_MARK_TWO_HEADPHONES,
+  5: ZX7_SPEAKER,
+  4: ZX9_SPEAKER,
+  6: YX1_EARPHONES,
+};

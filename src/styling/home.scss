@@ -1,27 +1,45 @@
-.first-banner{
+.home-first-banner{
     background-image: url("../assets-image/home/desktop/image-hero.jpg");
     background-size: 100%;
     background-position: right;
     background-repeat: no-repeat;
-    height: 100vh;
-    .first-banner-content{
+    height: 90vh;
+    .home-first-banner-content{
         color: white;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        height: 50%;
         width: 30%;
         padding-left: 10%;
         padding-top: 10%;
-        .new-product{
+        .home-new-product{
+            width: 90%;
             color: #7f7f7f;
             font-size: 1.2rem;
+            font-weight: 500;
             line-height: 1.3rem;
-            letter-spacing: 1rem;
+            letter-spacing: 0.6rem;
         }
-        .product-name{
+        .home-product-name{
             font-size: 2.7rem;
             font-weight: 900;
-            line-height: 2.5rem;
+            line-height: 3rem;
+            
+        }
+        .home-product-desc{
+            color: #8c8a8a;
+            width: 110%;
+            font-size: 1rem;
+            line-height: 1.5Rrem;
+        }
+        .home-seeProducts-button{
+            margin-top: 5%;
+            font-size: 1rem;
+            background-color: #d87c49;
+            color: white;
+            width: 50%;
+            height: 20%;
         }
     }
 }
