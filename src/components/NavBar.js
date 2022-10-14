@@ -9,7 +9,7 @@ import '../styling/NavBar.scss'
 import {setCartView} from '../action'
 
 export default function NavBar() {
-    const checkCartBoxView = useSelector((state) => state.isCartOpen);
+    const checkCartBoxView = useSelector((state) => state.fullDataReducer.isCartOpen);
     const dispatch = useDispatch()
     const style = {
       color: "inherit",

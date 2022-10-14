@@ -7,8 +7,8 @@ import '../styling/category.scss'
 import {categoryImages} from "../helper/images";
 export default function Category() {
   const navigate = useNavigate();
-  const isLoading = useSelector((state) => state.isLoading);
-  const data = useSelector((state) => state.fullData);
+  const isLoading = useSelector((state) => state.fullDataReducer.isLoading);
+  const data = useSelector((state) => state.fullDataReducer.fullData);
   const location = useLocation();
   if (!isLoading) {
     let getCategory;

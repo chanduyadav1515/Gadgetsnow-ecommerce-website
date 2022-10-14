@@ -4,7 +4,7 @@ import { useDispatch,useSelector } from 'react-redux/es/exports';
 import {Home,Category,Details,NavBar,Footer} from './index'
 import {setAllData,setLoading} from '../action'
 function App() {
-  const isLoading = useSelector((state) => state.isLoading);
+  const isLoading = useSelector((state) => state.fullDataReducer.isLoading);
   const dispatch = useDispatch()
   async function getData(){
     const response = await fetch("http://localhost:3001/");
